@@ -1,0 +1,31 @@
+alert('Boas vidas ao nosso site!');
+
+let Nome = 'Lua';
+console.log(Nome);
+
+let Idade = 25;
+console.log(Idade);
+
+let NumerDeVendas = 50;
+console.log(NumerDeVendas);
+
+let SaldoDisponivel = 1000;
+console.log(SaldoDisponivel);
+
+alert('Error! Preencha todos os campos!');
+
+let MensagemDeErro = 'Erro! Preencha todos os campos!';
+alert(MensagemDeErro);
+
+let NomeUsuario = prompt('Qual o nome de usuario?');
+console.log(NomeUsuario)
+
+let IdadeUsuario = prompt('Qual a idade do usuario?');
+console.log(IdadeUsuario)
+
+if (IdadeUsuario >= 18) {
+    alert('Pode tirar habilitação!');
+}
+if (IdadeUsuario < 18) {
+    alert('Você é muito novo!');
+}
